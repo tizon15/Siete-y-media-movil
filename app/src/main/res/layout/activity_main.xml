@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/btnEmpezar"
+        style="@android:style/Widget.Button"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_alignLeft="@+id/btnAyuda"
+        android:layout_alignStart="@+id/btnAyuda"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="12dp"
+        android:text="@string/btnEmpezar" />
+
+    <Button
+        android:id="@+id/btnAyuda"
+        style="@android:style/Widget.Button"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+
+        android:layout_below="@+id/btnEmpezar"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btnAyuda" />
+
+    <Button
+        android:id="@+id/btnAcercaDe"
+        style="@android:style/Widget.Button"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:onClick="onClick"
+        android:text="@string/btnAcercaDe"
+        android:layout_below="@+id/btnAyuda"
+        android:layout_alignLeft="@+id/btnAyuda"
+        android:layout_alignStart="@+id/btnAyuda" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/logo" />
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SieteYMedia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/etTituloAyuda"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/Titulo"
+        android:textAlignment="center"
+        android:textColor="@color/colorTexto"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="375dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif"
+        android:text="@string/textoAyuda"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorTexto"
+        android:textSize="16sp"
+        android:layout_below="@+id/etTituloAyuda"
+        android:layout_alignLeft="@+id/texto2"
+        android:layout_alignStart="@+id/texto2" />
+
+    <TextView
+        android:id="@+id/figura"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:fontFamily="serif"
+        android:text="@string/etFigura"
+        android:textColor="@color/colorTexto"
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignLeft="@+id/texto"
+        android:layout_alignStart="@+id/texto" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="57dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/rey_oros"
+        android:layout_below="@+id/texto"
+        android:layout_toLeftOf="@+id/etNumero"
+        android:layout_toStartOf="@+id/etNumero"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/etNumero"
+        android:layout_width="90dp"
+        android:layout_height="27dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:text="@string/etNumero"
+        android:textAlignment="center"
+        android:textColor="@color/colorTexto"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imgNumero"
+        android:layout_width="57dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/as_oros"
+        android:layout_alignTop="@+id/etNumero"
+        android:layout_toRightOf="@+id/etNumero"
+        android:layout_toEndOf="@+id/etNumero" />
+
+    <ImageView
+        android:id="@+id/imgNumero2"
+        android:layout_width="57dp"
+        android:layout_height="75dp"
+        android:layout_alignEnd="@+id/texto"
+        android:layout_alignRight="@+id/texto"
+        android:layout_marginRight="20dp"
+        android:layout_alignTop="@+id/imgNumero"
+        app:srcCompat="@drawable/siete_oros" />
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_width="375dp"
+        android:layout_height="175dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="@string/textoAyuda2"
+        android:textColor="@color/colorTexto"
+        android:textSize="16sp" />
+</RelativeLayout>

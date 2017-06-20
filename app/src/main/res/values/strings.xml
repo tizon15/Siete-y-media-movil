@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Siete y Media</string>
+    <string name="btnPedir">Pedir Carta</string>
+    <string name="btnPlantarse">Plantarse</string>
+
+    <string name="btnEmpezar">Empezar</string>
+    <string name="btnAyuda">Ayuda</string>
+    <string name="btnAcercaDe">Acerca De</string>
+
+    <string name="Titulo">BIENVENIDO A LA AYUDA DE SIETE Y MEDIA</string>
+    <string name="textoAyuda"> Este juego, es un juego de cartas de baraja española ,
+        en el que el objetivo es llegar a 7,5 en el que los numeros del As al Siete valen su numero y las figuras (Sota, Caballo y Rey) valen 0,5
+    </string>
+    <string name="etFigura">Figura: </string>
+    <string name="etNumero">Numero: </string>
+    <string name="textoAyuda2"> Juegas con la máquina y el que mas se aprocime a 7,5 sin pasarse gana, tienes dos botones uno pedir carta,
+        para pedir una nueva carta y otro que es plantarse para parar tu juego con tu puntuación, siempre que no te hayas pasado,
+        y que empiece el turno de la máquina
+    </string>
+
+    <string name="textoAcercaDe"> Este juego está realizado por: \n Alvaro Martinez-Tizon </string>
+    <string name="textoEdad">La edad mínima de juego es :  </string>
+    <string name="Final">GRACIAS POR JUGAR</string>
+</resources>
